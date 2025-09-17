@@ -29,7 +29,7 @@ LPH_JIT_MAX = LPH_NO_VIRTUALIZE
 
 local devMode = true
 local defaultUIName = "Bitchbobik" -- $$$ BITCHBOBIK $$$
-local folderName = "phentem farce cheet" -- chetik
+local folderName = "Bitchbot" -- chetik
 local connectionList = {}
 local callbackList = {}
 local playerStatus = {}
@@ -43,7 +43,7 @@ local wapus
 local userName = game:GetService("Players").LocalPlayer.Name
 local fileName = tostring(game.JobId) .. ".txt"
 if isfolder(folderName) and isfolder(folderName .. "/cache") and isfolder(folderName .. "/cache/votekick data") and isfile(folderName .. "/cache/votekick data/" .. fileName) and readfile(folderName .. "/cache/votekick data/" .. fileName) ~= userName then
-    local hostName = readfile("phentem farce cheet/cache/votekick data/" .. tostring(game.JobId) .. ".txt")
+    local hostName = readfile("Bitchbot/cache/votekick data/" .. tostring(game.JobId) .. ".txt")
     local modules, require_module
 
     for _, func in getgc(false) do
@@ -5981,18 +5981,7 @@ LPH_NO_VIRTUALIZE(function() -- Make UI
             "ؤقهحلاخف خهى فخح غثشا ةغ لاقخ",
             "beach boat does not miss",
             "BBOT ON TOP!",
-            "BBOTTED!",
-            "NEW AA IN BBOT?!?!??",
-            "BBOT GOT FIX AHAHHA KIDS",
-            "YOU CAN'T RUN BBOT HERE HAHA",
-            "WAHH WAHH KICK HIM PLSSSS",
-            "BBOT ON TOP!?!?!!?",
-            "TRY TAP ME KID",
-            "BBOT>OTHERS NN SCRIPTS",
-            "VADERHAXX :3",
-            "SEMI FEM..."
-            "SUCK MY DUCK",
-            "LOL YOU GOT TAPPED"
+            "BBOTTED!"
         }))
     end
 
