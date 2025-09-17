@@ -5976,12 +5976,23 @@ LPH_NO_VIRTUALIZE(function() -- Make UI
 
     if not isfile(folderName .. "/chat spam lists/default.txt") then
         writefile(folderName .. "/chat spam lists/default.txt", httpService:JSONEncode({
-            "but doctor prognosis: OWNED", -- legacy a pro for this list
-            "but doctor results: 🔥",
-            "looks like you need to talk to your doctor",
-            "speak to your doctor about this one",
-            "but analysis: PWNED",
-            "but diagnosis: OWND"
+            "BEACH BOAT ON TOP", -- legacy a pro for this list
+            "BBOT NEW UPDATE 2058 ةشساشممشا",
+            "ؤقهحلاخف خهى فخح غثشا ةغ لاقخ",
+            "beach boat does not miss",
+            "BBOT ON TOP!",
+            "BBOTTED!",
+            "NEW AA IN BBOT?!?!??",
+            "BBOT GOT FIX AHAHHA KIDS",
+            "YOU CAN'T RUN BBOT HERE HAHA",
+            "WAHH WAHH KICK HIM PLSSSS",
+            "BBOT ON TOP!?!?!!?",
+            "TRY TAP ME KID",
+            "BBOT>OTHERS NN SCRIPTS",
+            "VADERHAXX :3",
+            "SEMI FEM..."
+            "SUCK MY DUCK",
+            "LOL YOU GOT TAPPED"
         }))
     end
 
